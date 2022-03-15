@@ -15,5 +15,13 @@ For multiple loops
 7.if two loops are having different order size n and m . Then time complexity should consist of both m and n  terms . O(n2) and O(m) . Total - > O(n2 + m) 
 
 For Recursion
-8. Find the recurrence in terms of T(n) or T(n/2) accordingly then find the height of the tree. and look how many times n is added to multiple . Ex - > T(n) = T(n/2)  + O(1)
-The time complexity would be O(nlogn)
+8. Find the recurrence in terms of T(n) or T(n/2) accordingly then Non recursive item would be the head of the tree . find the height of the tree.
+and look how many times n is added to multiple(because of cn as non recursive part) . Ex - > T(n) = 2T(n/2) + cn
+The time complexity would be O(nlogn) [Merge Sort]
+9. T(n) = 2T(n-1) + c . Time complexity would be O(2^n) [Tower of Hannoi]
+10 T(n) = T(n/2) + c . Time complexity would be O(logn) [Binary Search]
+11.T(n) = 2T(n/2) + c. Time complexity would be O(n)
+
+Steps:
+A. Find total number of elements will be n or logn depending on the levels of inputs. [if for n=3 ,3 levels will be there then total term would be n]
+B. find the pattern how total number we get in each level.
