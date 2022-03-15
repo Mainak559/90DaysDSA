@@ -39,6 +39,13 @@ InShort : for T(n/2) - > total term = log2n
                     
  for more refer to gfg course. 
                     
-    We use infinite series to find upper bound in a recursion tree because it is easier to find Big O than theta which tree will not end in a same manner.
-    We use geometric series to find time complexity of recursion tree generally.
+13. We use infinite series to find upper bound in a recursion tree because it is easier to find Big O than theta which tree will not end in a same manner.
+14. We use geometric series to find time complexity of recursion tree generally.
+
+
+15. Auxiliary space -> extra space or temporary space required in your program in termsw of input size. 
+    if an array is passed to a function then space complexity will be O(n) but auxiliary space will be O(1) unless the function doesn't declare any extra space.
+16. We basically consider auxiliary space.
+17. Recursion takes O(n) for storing the value in stack.
+18. If we are using List,array and sets of size n then space complexity would be O(n).
   
