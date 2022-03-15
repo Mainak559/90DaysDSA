@@ -1,0 +1,19 @@
+Day1 :
+Time Complexity and Space Complexity
+
+Learn:
+1.Growing Faster means bad algorithm. O(n) and O(logn). Here O(n) is groeing faster than O(logn) so it is a bad algorithm.
+For single loops : 
+2. For(... i = i + c or  i = i-c)  -> O(n)
+3. For(.... i = i * c or i = i /c ) -> O(logn)
+4.For(..... i = pow(i,c)) -> O(loglogn)
+
+For multiple loops
+5. Subsequent loops : add time complexities of loops one by one
+6.Nested Loops : multiply time complexities of loops one by one
+
+7.if two loops are having different order size n and m . Then time complexity should consist of both m and n  terms . O(n2) and O(m) . Total - > O(n2 + m) 
+
+For Recursion
+8. Find the recurrence in terms of T(n) or T(n/2) accordingly then find the height of the tree. and look how many times n is added to multiple . Ex - > T(n) = T(n/2)  + O(1)
+The time complexity would be O(nlogn)
