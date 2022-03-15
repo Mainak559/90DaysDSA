@@ -29,7 +29,7 @@ B. find the pattern how total number we get in each level.
 InShort : for T(n/2) - > total term = log2n
           for T(n-1) ->  total term = n
           
-12. If some recursion tree does not end complete\ly then we find the upper bound using big O . Find the number of elements using the most right path(naturally it is of logn terms)
+12. If some recursion tree does not end completely then we find the upper bound using big O . Find the number of elements using the most right path(naturally it is of logn terms)
   and compute then
   for T(n) = T(n/4) + T(n/2) + cn. Time complexity would be O(n)
   for T(n) = T(n-1) + T(n-2) + c. Time complexity would be O(2^n)
@@ -43,7 +43,7 @@ InShort : for T(n/2) - > total term = log2n
 14. We use geometric series to find time complexity of recursion tree generally.
 
 
-15. Auxiliary space -> extra space or temporary space required in your program in termsw of input size. 
+15. Auxiliary space -> extra space or temporary space required in your program in terms of input size. 
     if an array is passed to a function then space complexity will be O(n) but auxiliary space will be O(1) unless the function doesn't declare any extra space.
 16. We basically consider auxiliary space.
 17. Recursion takes O(n) for storing the value in stack.
