@@ -25,3 +25,20 @@ The time complexity would be O(nlogn) [Merge Sort]
 Steps:
 A. Find total number of elements will be n or logn depending on the levels of inputs. [if for n=3 ,3 levels will be there then total term would be n]
 B. find the pattern how total number we get in each level.
+
+InShort : for T(n/2) - > total term = log2n
+          for T(n-1) ->  total term = n
+          
+12. If some recursion tree does not end complete\ly then we find the upper bound using big O . Find the number of elements using the most right path(naturally it is of logn terms)
+  and compute then
+  for T(n) = T(n/4) + T(n/2) + cn. Time complexity would be O(n)
+  for T(n) = T(n-1) + T(n-2) + c. Time complexity would be O(2^n)
+  
+  Formula to note: for geometric progression , 1+2+3+4....n  S = (r^n -1)/r-1 where r > 1
+                    for infinite progression, 1+2+3.....infy S = a/1-r
+                    
+ for more refer to gfg course. 
+                    
+    We use infinite series to find upper bound in a recursion tree because it is easier to find Big O than theta which tree will not end in a same manner.
+    We use geometric series to find time complexity of recursion tree generally.
+  
